@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar
+
+    </title>
+</head>
+<style>
+    body{
+        margin: 0;
+        font-family: sans-serif,Arial;
+    }
+    .navbar{
+        background-color: gray;
+        overflow: hidden;
+        box-shadow: 0px 0px 3px #ccc;
+    }
+    .navbar a{
+        float: left;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+    }
+    .navbar a:hover{
+        background-color: #ddd;
+        color: black;
+    }
+</style>
+<body>
+    <div class="navbar">
+        <a href="index.html.txt">Home</a>
+        <a href="login.html.txt">login</a>
+        <a href="cadastro.html.txt">cadastro</a>
+    
+    
+</body>
+</html>
